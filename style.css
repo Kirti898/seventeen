@@ -49,9 +49,9 @@
 }
 .second_section .second_section_content .all_content{
     display: flex;
-    gap: 84px;
+    /* gap: 84px; */
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
    
     
 }
@@ -79,6 +79,11 @@
     left: 0;
     top:5px;
    
+}
+.second_section .second_section_content .all_content .flex_container_2{
+    display:flex;
+    flex-basis: 43%;
+
 }
 
 
