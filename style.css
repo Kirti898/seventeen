@@ -100,8 +100,8 @@
 }
 
 .section_first  .section_first_content .bottom_section .box {
-    max-width: none;
-    width:100%
+    max-width: 100%;
+    /* width:100% */
 }
 .section_first .section_first_content  .bottom_section {
     gap:0px;
