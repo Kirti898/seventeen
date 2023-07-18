@@ -15,6 +15,18 @@
     padding: 38px 30px;
     background:transparent;
     border-radius: 6px;
+    position: relative;
+}
+.section_first  .section_first_content .bottom_section .box:hover:before{
+position: absolute;
+content: '';
+background-image: url(./images/Vector.svg);
+background-repeat: no-repeat;
+background-size: contain;
+width:26px;
+height:21px;
+top:5px;
+right:6px;
 }
 .section_first  .section_first_content .bottom_section .box .image{
     width: 52px;
@@ -39,6 +51,40 @@
 .section_first  .section_first_content .bottom_section .flex_container:nth-child(3n){
  margin-right: 0;
 }
+
+
+/* Testing code
+.section_first  .section_first_content .bottom_section .box .vector {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .card:hover .checkmark {
+    display: block;
+  }
+  
+  .card:hover .checkmark::before {
+    content: "\2713";
+    font-size: 20px;
+    color: #27ae60;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+ 
+ */
+
+
+
 
 
 
