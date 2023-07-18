@@ -36,7 +36,7 @@
     flex-basis: 31%;
     margin-right: 2%;
 }
-.section_first  .section_first_content .bottom_section .flex_container :nth-child(3n){
+.section_first  .section_first_content .bottom_section .flex_container:nth-child(3n){
  margin-right: 0;
 }
 
